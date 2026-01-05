@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c11
+CFLAGS = -Wall -Wextra -std=c11 -I./src   # <- add -I./src
 
 SRC = src/stock.c
 TEST = tests/test_stock.c
