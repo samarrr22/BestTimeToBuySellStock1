@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "stock.h"
+#include "../src/stock.h"
 
 void test_normal_case() {
     int prices[] = {7, 1, 5, 3, 6, 4};
